@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>hobbies</title>
+	<style >
+    #body
+    {
+        background-color:rgb(250, 242, 245);
+    }
+		#heading
+		{
+			text-align: center;
+			padding-top: 20px;
+			padding-bottom: 30px;
+			font-size: 40px;
+			color: black;
+		}
+    #logo_img
+        {
+
+	         border-radius: 50%;
+			float: left;
+			height:70px;
+			width: 70px;
+			padding-left: 15px;
+		}
+
+		.navigation
+		{
+			/*background-color:pink;*/
+			overflow: hidden;
+			background-image: url('blog2.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			text-align: center;
+
+
+		}
+
+        .navigation a 
+        {
+        	font-size: 17px;
+        	color: black;
+        	text-decoration: none;
+        	padding: 14px 16px;
+            font-weight: bold;
+            font-size: 18px;
+        	/*float :right;*/
+        }
+
+        .navigation a:hover
+        {
+        	background-color:rgb(191, 145, 162); ;
+        }
+        .dropdown
+        {
+        	/*background-color: sandybrown;*/
+			overflow: hidden;
+			/*float: right;*/
+			display: inline;
+        }
+        .options{
+        	display:inline;
+        }
+        .dropbtn
+        {
+        	font-size: 16px;
+        	padding: 14px 16px;
+            outline: none;
+            border: none;
+            background-color: inherit;
+            color:black ;
+        }
+        .dropdowncontent
+        {
+        	position: absolute;
+        	min-width: 80px;
+        	background-color: rgb(250,242,245);
+        	box-shadow: 0px 8px 16px rgba(0, 0, 0,0.2) ;
+            width: 30%;
+            margin-left:53% ;
+            display: none;
+            
+            
+        }
+        .dropdowncontent a
+        {
+        	text-decoration: none;
+        	color: black;
+        	padding: 14px 16px;
+        	text-align: center;
+        	display: block;
+        	float: none;
+        }
+        .dropdown:hover .dropdowncontent
+        {
+            display: block;
+        }
+		.image
+		{
+			height: 60%;
+			width: 50%;
+			border-radius: 70%; 
+		}
+		.column1
+        {
+            width: 40%;
+            padding: 10px 20px;
+            float: left;
+        }
+        .column2
+        {
+            width: 40%;
+            padding: 10px 20px;
+            float: right;
+        }
+        .card1
+        {
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+       
+        .card2
+        {
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+            margin-bottom: 10px;
+            margin-top: 10px;
+
+            background-color: lightblue;
+        }
+		@media screen and (max-width: 800px)
+		{
+			.column
+			{
+				width: 100%;
+				display: block;
+			}
+			.image
+			{
+				display: none;
+			}
+		}
+	</style>
+</head>
+<body id="body">
+	<div class="main">
+ 	    <div class="navigation">
+
+ 	    	<!--<img id="logo_img" src="dummy.png">-->
+ 	    	<p id="heading">HOBBIES</p>
+ 	     	<div class="options">
+				<a href="index.html">Home</a>
+            	<a href="academicqualification.html">Academic Qualifications</a>
+            	<a href="undergoingprojects.html">Projects</a>	
+				<a class="home" href="certificates.html">Technical Workshop</a>
+                <a href="internship.html">Internship</a>
+               
+			</div>
+			<div class ="dropdown">
+				<button class="dropbtn"style=" font-size: 18px; font-weight: bold; color: black">Others</button>
+					<div class="dropdowncontent">
+						<a href="hobbies.html">Hobbies</a>
+                        <a href="https://drive.google.com/drive/u/0/folders/1kByMz4X98YcC1jRG9-n2-I-PCmu7GYbZ">Resume</a>
+
+						<a href="follow.html">Follow and Contact</a>
+
+					</div>
+			</div>	    
+		</div>
+ 	</div>
+
+	<div class="column1">
+            <div class="card1">
+                <img class="image" src="travell.gif">
+                
+            </div>
+        </div>
+    <div class="column1">
+            <div class="card2">
+
+                <h1>
+                    TRAVELLING
+                </h1>
+                <p>
+                	<i><b>“Travel makes one modest, you see what a tiny place you occupy in the world.”</i></b>  Travelling can teach you more than any university course. You learn about the culture of the country you visit. If you talk to locals, you will likely learn about their thinking, habits, traditions and history as well.
+                </p>
+               
+            </div>
+    </div>
+    <div class="column2">
+            <div class="card1">
+                <img class="image" src="reading.gif">
+                
+            </div>
+        </div>
+    <div class="column2">
+            <div class="card2">
+
+                <h1>
+                    READING
+                </h1>
+                 <p><i><b>“You can never get a cup of tea large enough or a book long enough to suit me.”</i></b><br>
+                    A growing body of research indicates that reading literally changes your mind.
+
+					Using MRI scans, researchers have confirmedTrusted Source that reading involves a complex network of circuits and signals in the brain. As your reading ability matures, those networks also get stronger and more sophisticated.</p>
+            </div>
+    </div>
+    <div class="column1">
+            <div class="card1">
+                <img class="image" src="cooking.gif">
+                
+            </div>
+        </div>
+    <div class="column1">
+            <div class="card2">
+
+                <h1>
+                    COOKING
+                </h1>
+                <p><i><b>“Real cooking is more about following your heart than following recipes.”</i></b><br>
+                	There are plenty of reasons to take up cooking as a hobby. ... Aside from health benefits, cooking is also a great way to explore other cultures. Trying new foods from different cultures can lead you to find new favorite dishes, but it can also lead you to a deeper appreciation of the culture and the people.
+                </p>
+               
+            </div>
+    </div>
+    <div class="column2">
+            <div class="card1">
+                <img class="image" src="music.gif">
+                
+            </div>
+        </div>
+    <div class="column2">
+            <div class="card2">
+
+                <h1>
+                    MUSIC
+                </h1>
+                <p><i><b>"Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife."</b></i><br>
+                	I enjoy music and I listen it every single day. There are a lot of different styles of music for you to choose and enjoy. If I am in good mood, I prefer to listen some energy rock music that keep me happy and full of power. If I am tired, I chose some calm, relaxing songs.
+                </p>
+               
+            </div>
+    </div>
+
+
+</body>
+</html>
